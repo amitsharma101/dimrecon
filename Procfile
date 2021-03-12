@@ -1,1 +1,1 @@
-web: gunicorn plaindjango.wsgi:application --log-file -
+web: gunicorn dimrecon.wsgi:application --log-file -
